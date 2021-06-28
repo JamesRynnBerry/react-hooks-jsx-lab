@@ -2,12 +2,14 @@ import React from "react";
 import { image } from "../data/data";
 
 function About() {
-  <div id="about">
+
+  return <div>About
+    <div id="about">
     <h2>About Me</h2>
     <p>Blarg</p>
-    <img src={ image } alt="I made this"/>
+    <img src={image} alt="I made this"/>
   </div>
-  return <div>About</div>;
+  </div>;
 }
 
 export default About;
